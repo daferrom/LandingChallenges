@@ -1,14 +1,22 @@
+*{
+    box-sizing:border-box;
+}
 .Card{
-    background-color: gray;
-    width:35%;
-    height: 35%;
-    margin: 5px
+    display:flex;
+    flex-direction: column;
+    height: 30%;
+    margin: 0px;
+    margin-bottom:30px;
+    padding:0px;
+
 }
 
 
 .Card img{
     height:100%;
     width:100%;
+    padding:0px 0px;
+    margin: 0px 0px;
 }
 
 h4{
@@ -17,7 +25,10 @@ h4{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
     font-size: 14px;
-    height: 10px;
+    height: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
 }

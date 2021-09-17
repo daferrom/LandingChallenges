@@ -7,8 +7,10 @@ const Card = ({props}) => {
     
     return (
         <div className="Card">
-            <img src={imageUrl} alt={props.name} ></img>
-            <h4>{props.id} {props.name}</h4>
+            <a href={props.challengeUrl} target="blank">
+                <img src={imageUrl} alt={props.name} ></img>
+                <h4>{props.id} {props.name}</h4>
+            </a>
         </div>
     )
 }
