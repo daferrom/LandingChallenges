@@ -5,8 +5,10 @@ import './Cards.css'
 
 const Cards = ({props}) => {
 
-    const Challenges = Challengesjson
-    console.log(Challenges)
+    
+    const Challenges = Challengesjson.filter((challenge)=>challenge.name.includes("click"))
+    
+
 
     return (
         <div className="cardsContainer">
