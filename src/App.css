@@ -1,6 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
+*{
+    box-sizing:border-box;
+}
 
 .AppContainer{
     display:flex;
@@ -11,19 +13,85 @@
     font-family: 'work Sans'
     
 }
-.App input {
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
     width: 300px;
     height: 40px;
     font-size: 20px;
-    padding:10px
+    padding:10px;
+    margin: 20px;
+    justify-content: center;
+    align-content: center;
 }
 h1{
-    display: flex;
+    
     align-content: center;
     align-items:center;
     text-align: center;
 }
 p{
     margin: 10px;
+    font-size: 18px
 }
+.Card img{
+    height:100%;
+    width:100%;
+    padding:0px 0px;
+    margin: 0px 0px;
+}
+
+h4{
+    background-color:#A7B5C7;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    height: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}
+.grid-responsive{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    gap:1rem; 
+}
+
+.cardsContainer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    gap:1rem; 
+    background-color: #B5E5EB;
+    padding-top:30px;
+    }
+    
+    .Card{
+        height: 20%;
+        margin: 0px;
+        padding:0px;
+    
+    }
+    
+    
+    
+    
+    h4{
+        background-color:#A7B5C7;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 14px;
+        height: 15px;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    

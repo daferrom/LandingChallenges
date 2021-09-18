@@ -8,7 +8,7 @@
     {
         "name":"WithoutNAme",
         "id":"2",
-        "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/1.jpg?raw=true",
+        "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/2.jpg?raw=true",
         "challengeUrl":"https://daferrom.github.io/retos/02-Progress%20Steps/index.html"
     },
     {
@@ -127,28 +127,28 @@
         "challengeUrl":"https://daferrom.github.io/retos/21-Event%20keycodes/index.html"
     },
     {
-        "name":"No name challenge",
+        "name":"Mobile Nav Navigation",
         "id":"22",
-        "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/1.jpg?raw=true",
-        "challengeUrl":"https://daferrom.github.io/retos/20-%20Double%20click%20Heart/index.html"
+        "imageChallenge": "https://raw.githubusercontent.com/daferrom/retos/main/Assets/imgs/22.jpg",
+        "challengeUrl":"https://daferrom.github.io/retos/22-Mobile%20Nav%20Navigation/index.html"
     },
     {
         "name":"Drink Water",
         "id":"23",
-        "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/1.jpg?raw=true",
-        "challengeUrl":"https://daferrom.github.io/retos/20-%20Double%20click%20Heart/index.html"
+        "imageChallenge": "https://raw.githubusercontent.com/daferrom/retos/main/Assets/imgs/23.jpg",
+        "challengeUrl":"https://daferrom.github.io/retos/23%20Drink%20Water/index.html"
     },
     {
         "name":"Double click Heart",
         "id":"24",
         "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/1.jpg?raw=true",
-        "challengeUrl":"https://daferrom.github.io/retos/20-%20Double%20click%20Heart/index.html"
+        "challengeUrl":"https://daferrom.github.io/retos/24-Feedback%20UI%20design/index.html"
     },
     {
-        "name":"Challenge",
+        "name":"GitHub Profile",
         "id":"25",
         "imageChallenge": "https://github.com/daferrom/retos/blob/main/Assets/imgs/1.jpg?raw=true",
-        "challengeUrl":"https://daferrom.github.io/retos/20-%20Double%20click%20Heart/index.html"
+        "challengeUrl":"https://daferrom.github.io/retos/25-GitHub%20Profile/index.html"
     }
 
 ]

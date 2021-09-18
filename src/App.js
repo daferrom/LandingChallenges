@@ -2,6 +2,7 @@ import './App.css';
 import Cards from './components/Cards/Cards';
 //import Header from './components/Header/Header';
 import JSONDATA from './database/challengesList.json'
+
 import {useState} from 'react'
 function App() {
   const[searchTerm, setSearchTerm] = useState('')
@@ -10,8 +11,11 @@ function App() {
       
       <h1>My challenges on Javascript</h1>
       <h2>Diego Ferro Software Developer</h2>
-      <h2>Retos y mas retos</h2>
-      <input type="text" placeholder="Buscar..." onChange={event => {setSearchTerm(event.target.value)}}></input>
+      
+      <input className="searchBar" type="text" placeholder="Buscar..." onChange={event => {setSearchTerm(event.target.value)}}></input>
+      <div className="cardsContainer">
+      
+      
       {JSONDATA.filter((val)=> {
         if(searchTerm === ""){
           return val
@@ -21,13 +25,20 @@ function App() {
         }      
       }).map(( val, key ) => { 
       return (
-        <div className="user" key={key}>
-        <p>{val.name}</p>
-        </div>
+       
+        
+          <div className="Card" key={key}>
+            <a href={val.challengeUrl} target="blank">
+            <img src= {`https://raw.githubusercontent.com/daferrom/retos/main/Assets/imgs/${val.id}.jpg`} alt={val.name} ></img>
+            <h4>{val.id}. {val.name}</h4>
+            </a>
+          </div>
+        
       );
       })}
+      </div>
+      
 
-      <Cards></Cards>
     </div>
   );
 }
