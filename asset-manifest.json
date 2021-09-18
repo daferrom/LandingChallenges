@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/LandingChallenges/static/css/main.4be826d8.chunk.css",
+    "main.js": "/LandingChallenges/static/js/main.7eef3c7a.chunk.js",
+    "main.js.map": "/LandingChallenges/static/js/main.7eef3c7a.chunk.js.map",
+    "runtime-main.js": "/LandingChallenges/static/js/runtime-main.b2974a90.js",
+    "runtime-main.js.map": "/LandingChallenges/static/js/runtime-main.b2974a90.js.map",
+    "static/js/2.edc1b259.chunk.js": "/LandingChallenges/static/js/2.edc1b259.chunk.js",
+    "static/js/2.edc1b259.chunk.js.map": "/LandingChallenges/static/js/2.edc1b259.chunk.js.map",
+    "index.html": "/LandingChallenges/index.html",
+    "static/css/main.4be826d8.chunk.css.map": "/LandingChallenges/static/css/main.4be826d8.chunk.css.map",
+    "static/js/2.edc1b259.chunk.js.LICENSE.txt": "/LandingChallenges/static/js/2.edc1b259.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2974a90.js",
+    "static/js/2.edc1b259.chunk.js",
+    "static/css/main.4be826d8.chunk.css",
+    "static/js/main.7eef3c7a.chunk.js"
+  ]
+}
