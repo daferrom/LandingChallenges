@@ -1,13 +1,13 @@
+ /*
 const result = document.getElementById('result')
 const filter = document.getElementById('filter')
 const challengesList = []
 
-
 getData()
+   
+    //filter.addEventListener('input', (e) => filterData(e.target.value))
 
-    filter.addEventListener('input', (e) => filterData(e.target.value))
-
-    function getData(){
+   function getData(){
             const res = DataChallenges;
             //console.log(res)
             const results = res;
@@ -28,7 +28,7 @@ getData()
             })
             result.innerHTML = ''
     }
-    /*
+    
     function filterData(searchTerm) {
         challengesList.forEach(item => {
             if(item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
@@ -38,4 +38,4 @@ getData()
             }
         })
     }
-    */
+   */ 

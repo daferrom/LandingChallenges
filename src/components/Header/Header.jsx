@@ -1,5 +1,5 @@
 import React from 'react'
-import DataChallenges from '../../database/challengesList.json'
+//import DataChallenges from '../../database/challengesList.json'
 
 const Header = () => {
     

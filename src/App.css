@@ -1,13 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
 .AppContainer{
     display:flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     text-align: center;
+    font-family: 'work Sans'
+    
+}
+.App input {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding:10px
 }
 h1{
     display: flex;
     align-content: center;
     align-items:center;
     text-align: center;
+}
+p{
+    margin: 10px;
 }
